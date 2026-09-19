@@ -73,3 +73,52 @@ docker build -t scheduling . && docker run -p 8000:8000 scheduling
 - Label synthetic data as synthetic — in the code and in the report.
 - Staging data only. Never production, never live M-Pesa.
 - Tell Benjamin the same day if you find a real bug in the platform.
+
+---
+
+## What is already built, and what is yours
+
+U-CS 41 is three jobs. The first two are correctness work and are done — a clever model on
+a calendar that double-books is worth nothing. The third is yours.
+
+| | Job | Status |
+|---|---|---|
+| 1 | **Slot generation** — availability into concrete bookable slots | done, `app/slots.py` |
+| 2 | **Conflict detection** — double-booking, buffers, overlaps, orphans | done, `app/conflicts.py` + `app/booking.py` |
+| 3 | **No-show prediction** | **yours** — `app/service.py` |
+
+### Endpoints
+
+```
+POST /slots/generate    in : { serviceId, from, to, slotDurationMinutes, bufferMinutes, availability[] }
+                        out: { count, slots[] }
+POST /slots/book        in : { slotKey, userId }        concurrency-safe
+                        out: { bookingId, slotKey, status }
+POST /conflicts/check   in : { bufferMinutes }
+                        out: { clean, conflicts[], invariantsHold }
+POST /noshow/predict    in : { bookingId }              <- YOUR MODEL
+                        out: { probability, factors[] }
+```
+
+The `/noshow/predict` shape is fixed — U-CS 46 (ops-metrics) depends on it.
+
+### The test that matters
+
+`tests/test_concurrency.py` fires 50 simultaneous requests at a slot with one seat and asserts
+exactly one wins. Run it before and after any change to `app/booking.py`:
+
+```bash
+pytest tests/ -q          # 22 tests
+```
+
+It is not a decorative test. With the lock removed from `book()` it fails immediately.
+
+### Your next steps
+
+1. Fill in the **Concept Note** in `documents/`
+2. Define **no-show** precisely — a booking that reached its start and never completed, or was
+   cancelled inside a window you choose. Write the definition down in week 1 and do not change it
+3. Build the **baseline**: predict the overall no-show rate for everyone. Measure it. Write the
+   number down. You are not allowed a model until that number exists
+4. Only then build the real model, using **pre-session features only**. If you use `cancelledAt`
+   you have leaked the answer into the question
