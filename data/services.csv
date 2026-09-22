@@ -1,0 +1,526 @@
+service_id,provider_id,category,name,base_price_kes,duration_minutes,slot_capacity,slots_enabled,is_synthetic
+S00000,P0000,Childcare,Childcare — package 1,1796.85,300,2,True,True
+S00001,P0000,Childcare,Childcare — package 2,2281.93,300,1,True,True
+S00002,P0000,Childcare,Childcare — package 3,1642.69,300,2,True,True
+S00003,P0001,Home Cleaning,Home Cleaning — package 1,1855.19,180,2,True,True
+S00004,P0001,Home Cleaning,Home Cleaning — package 2,2102.84,180,1,True,True
+S00005,P0001,Home Cleaning,Home Cleaning — package 3,1949.41,180,2,True,True
+S00006,P0002,Gardening,Gardening — package 1,1545.79,120,1,True,True
+S00007,P0003,Laundry,Laundry — package 1,946.79,60,1,True,True
+S00008,P0004,Plumbing Repair,Plumbing Repair — package 1,3260.42,90,1,True,True
+S00009,P0004,Plumbing Repair,Plumbing Repair — package 2,3103.98,90,2,True,True
+S00010,P0004,Plumbing Repair,Plumbing Repair — package 3,2670.31,90,1,True,True
+S00011,P0005,Home Cleaning,Home Cleaning — package 1,1391.4,180,1,True,True
+S00012,P0006,Plumbing Repair,Plumbing Repair — package 1,2545.63,90,1,True,True
+S00013,P0007,Home Cleaning,Home Cleaning — package 1,1952.13,180,2,True,True
+S00014,P0008,Gardening,Gardening — package 1,1400.66,120,1,True,True
+S00015,P0008,Gardening,Gardening — package 2,1403.27,120,1,True,True
+S00016,P0009,Appliance Repair,Appliance Repair — package 1,3188.57,90,1,True,True
+S00017,P0009,Appliance Repair,Appliance Repair — package 2,2745.97,90,1,True,True
+S00018,P0009,Appliance Repair,Appliance Repair — package 3,2748.23,90,1,True,True
+S00019,P0010,Security Install,Security Install — package 1,5425.41,180,1,True,True
+S00020,P0010,Security Install,Security Install — package 2,5170.78,180,1,True,True
+S00021,P0010,Security Install,Security Install — package 3,5596.34,180,1,True,True
+S00022,P0011,Appliance Repair,Appliance Repair — package 1,2555.61,90,1,True,True
+S00023,P0012,Moving and Errands,Moving and Errands — package 1,3753.46,240,1,True,True
+S00024,P0013,Electrical Works,Electrical Works — package 1,3526.57,120,2,True,True
+S00025,P0013,Electrical Works,Electrical Works — package 2,3363.97,120,1,True,True
+S00026,P0013,Electrical Works,Electrical Works — package 3,4035.81,120,2,True,True
+S00027,P0014,Childcare,Childcare — package 1,2546.98,300,2,True,True
+S00028,P0014,Childcare,Childcare — package 2,2337.68,300,1,True,True
+S00029,P0015,Salon and Beauty,Salon and Beauty — package 1,1269.41,120,2,True,True
+S00030,P0016,Plumbing Repair,Plumbing Repair — package 1,3017.88,90,1,True,True
+S00031,P0016,Plumbing Repair,Plumbing Repair — package 2,2663.75,90,1,True,True
+S00032,P0016,Plumbing Repair,Plumbing Repair — package 3,2314.75,90,1,True,True
+S00033,P0017,Gardening,Gardening — package 1,1799.26,120,1,True,True
+S00034,P0017,Gardening,Gardening — package 2,2103.93,120,2,True,True
+S00035,P0018,Tutoring,Tutoring — package 1,770.62,60,1,True,True
+S00036,P0018,Tutoring,Tutoring — package 2,1017.27,60,2,True,True
+S00037,P0018,Tutoring,Tutoring — package 3,855.92,60,2,True,True
+S00038,P0019,Security Install,Security Install — package 1,5354.07,180,2,True,True
+S00039,P0019,Security Install,Security Install — package 2,5699.42,180,2,True,True
+S00040,P0019,Security Install,Security Install — package 3,5540.99,180,1,True,True
+S00041,P0020,Electrical Works,Electrical Works — package 1,2906.84,120,1,True,True
+S00042,P0020,Electrical Works,Electrical Works — package 2,2820.58,120,1,True,True
+S00043,P0020,Electrical Works,Electrical Works — package 3,3003.99,120,1,True,True
+S00044,P0021,Laundry,Laundry — package 1,961.38,60,1,True,True
+S00045,P0021,Laundry,Laundry — package 2,857.18,60,1,True,True
+S00046,P0022,Electrical Works,Electrical Works — package 1,3541.1,120,1,True,True
+S00047,P0022,Electrical Works,Electrical Works — package 2,2948.43,120,1,True,True
+S00048,P0022,Electrical Works,Electrical Works — package 3,2899.47,120,1,True,True
+S00049,P0023,Home Cleaning,Home Cleaning — package 1,1969.41,180,1,True,True
+S00050,P0023,Home Cleaning,Home Cleaning — package 2,1620.11,180,1,True,True
+S00051,P0024,Electrical Works,Electrical Works — package 1,3015.26,120,2,True,True
+S00052,P0025,Moving and Errands,Moving and Errands — package 1,3293.27,240,1,True,True
+S00053,P0025,Moving and Errands,Moving and Errands — package 2,2463.15,240,1,True,True
+S00054,P0026,Cooking,Cooking — package 1,1562.52,150,1,True,True
+S00055,P0026,Cooking,Cooking — package 2,1729.41,150,1,True,True
+S00056,P0027,Plumbing Repair,Plumbing Repair — package 1,3352.92,90,1,True,True
+S00057,P0028,Plumbing Repair,Plumbing Repair — package 1,2106.2,90,1,True,True
+S00058,P0028,Plumbing Repair,Plumbing Repair — package 2,1719.73,90,2,True,True
+S00059,P0029,Moving and Errands,Moving and Errands — package 1,4363.77,240,1,True,True
+S00060,P0030,Home Cleaning,Home Cleaning — package 1,1509.67,180,1,True,True
+S00061,P0030,Home Cleaning,Home Cleaning — package 2,2386.85,180,1,True,True
+S00062,P0031,Plumbing Repair,Plumbing Repair — package 1,2378.94,90,1,True,True
+S00063,P0031,Plumbing Repair,Plumbing Repair — package 2,2796.51,90,1,True,True
+S00064,P0032,Cooking,Cooking — package 1,1567.16,150,1,True,True
+S00065,P0032,Cooking,Cooking — package 2,1392.8,150,1,True,True
+S00066,P0032,Cooking,Cooking — package 3,1001.31,150,1,True,True
+S00067,P0033,Laundry,Laundry — package 1,1085.42,60,1,True,True
+S00068,P0033,Laundry,Laundry — package 2,997.01,60,1,True,True
+S00069,P0033,Laundry,Laundry — package 3,738.82,60,1,True,True
+S00070,P0034,Childcare,Childcare — package 1,2364.61,300,1,True,True
+S00071,P0034,Childcare,Childcare — package 2,2155.06,300,1,True,True
+S00072,P0035,Gardening,Gardening — package 1,1370.48,120,2,True,True
+S00073,P0035,Gardening,Gardening — package 2,698.01,120,1,True,True
+S00074,P0035,Gardening,Gardening — package 3,1710.26,120,1,True,True
+S00075,P0036,Security Install,Security Install — package 1,3642.46,180,1,True,True
+S00076,P0036,Security Install,Security Install — package 2,4992.88,180,1,True,True
+S00077,P0036,Security Install,Security Install — package 3,4583.68,180,1,True,True
+S00078,P0037,Laundry,Laundry — package 1,976.54,60,1,True,True
+S00079,P0037,Laundry,Laundry — package 2,1029.16,60,1,True,True
+S00080,P0037,Laundry,Laundry — package 3,902.71,60,1,True,True
+S00081,P0038,Childcare,Childcare — package 1,2054.48,300,1,True,True
+S00082,P0038,Childcare,Childcare — package 2,1384.23,300,1,True,True
+S00083,P0039,Cooking,Cooking — package 1,1809.79,150,1,True,True
+S00084,P0039,Cooking,Cooking — package 2,1139.43,150,1,True,True
+S00085,P0039,Cooking,Cooking — package 3,1508.73,150,1,True,True
+S00086,P0040,Gardening,Gardening — package 1,1612.21,120,1,True,True
+S00087,P0041,Cooking,Cooking — package 1,998.21,150,1,True,True
+S00088,P0041,Cooking,Cooking — package 2,1622.11,150,1,True,True
+S00089,P0042,Cooking,Cooking — package 1,1018.93,150,1,True,True
+S00090,P0043,Moving and Errands,Moving and Errands — package 1,3982.39,240,1,True,True
+S00091,P0043,Moving and Errands,Moving and Errands — package 2,3867.62,240,1,True,True
+S00092,P0044,Salon and Beauty,Salon and Beauty — package 1,2406.21,120,1,True,True
+S00093,P0045,Laundry,Laundry — package 1,605.36,60,2,True,True
+S00094,P0045,Laundry,Laundry — package 2,656.83,60,1,True,True
+S00095,P0046,Security Install,Security Install — package 1,4883.16,180,1,True,True
+S00096,P0047,Cooking,Cooking — package 1,1587.66,150,2,True,True
+S00097,P0048,Cooking,Cooking — package 1,1810.09,150,2,True,True
+S00098,P0049,Tutoring,Tutoring — package 1,1251.53,60,1,True,True
+S00099,P0049,Tutoring,Tutoring — package 2,1159.34,60,2,True,True
+S00100,P0050,Plumbing Repair,Plumbing Repair — package 1,966.08,90,2,True,True
+S00101,P0050,Plumbing Repair,Plumbing Repair — package 2,3585.06,90,1,True,True
+S00102,P0050,Plumbing Repair,Plumbing Repair — package 3,2231.93,90,1,True,True
+S00103,P0051,Salon and Beauty,Salon and Beauty — package 1,2062.42,120,2,True,True
+S00104,P0052,Childcare,Childcare — package 1,1824.64,300,1,True,True
+S00105,P0052,Childcare,Childcare — package 2,2594.72,300,1,True,True
+S00106,P0052,Childcare,Childcare — package 3,2053.81,300,2,True,True
+S00107,P0053,Salon and Beauty,Salon and Beauty — package 1,2431.72,120,1,True,True
+S00108,P0054,Security Install,Security Install — package 1,5999.35,180,1,True,True
+S00109,P0054,Security Install,Security Install — package 2,7284.63,180,1,True,True
+S00110,P0054,Security Install,Security Install — package 3,5105.08,180,1,True,True
+S00111,P0055,Gardening,Gardening — package 1,1977.4,120,1,True,True
+S00112,P0055,Gardening,Gardening — package 2,1427.43,120,2,True,True
+S00113,P0056,Electrical Works,Electrical Works — package 1,2169.78,120,1,True,True
+S00114,P0056,Electrical Works,Electrical Works — package 2,2720.39,120,1,True,True
+S00115,P0056,Electrical Works,Electrical Works — package 3,2969.79,120,1,True,True
+S00116,P0057,Moving and Errands,Moving and Errands — package 1,3837.68,240,1,True,True
+S00117,P0057,Moving and Errands,Moving and Errands — package 2,3041.37,240,1,True,True
+S00118,P0057,Moving and Errands,Moving and Errands — package 3,4366.09,240,1,True,True
+S00119,P0058,Childcare,Childcare — package 1,2010.13,300,1,True,True
+S00120,P0058,Childcare,Childcare — package 2,2404.98,300,1,True,True
+S00121,P0058,Childcare,Childcare — package 3,1642.4,300,2,True,True
+S00122,P0059,Salon and Beauty,Salon and Beauty — package 1,3099.97,120,1,True,True
+S00123,P0060,Cooking,Cooking — package 1,1290.59,150,1,True,True
+S00124,P0060,Cooking,Cooking — package 2,1373.1,150,1,True,True
+S00125,P0061,Electrical Works,Electrical Works — package 1,3378.56,120,2,True,True
+S00126,P0061,Electrical Works,Electrical Works — package 2,3603.63,120,2,True,True
+S00127,P0061,Electrical Works,Electrical Works — package 3,2796.29,120,1,True,True
+S00128,P0062,Childcare,Childcare — package 1,1946.02,300,1,True,True
+S00129,P0062,Childcare,Childcare — package 2,1797.55,300,1,True,True
+S00130,P0062,Childcare,Childcare — package 3,2681.18,300,1,True,True
+S00131,P0063,Cooking,Cooking — package 1,1654.55,150,1,True,True
+S00132,P0063,Cooking,Cooking — package 2,1738.52,150,1,True,True
+S00133,P0063,Cooking,Cooking — package 3,1388.46,150,1,True,True
+S00134,P0064,Plumbing Repair,Plumbing Repair — package 1,2378.94,90,1,True,True
+S00135,P0064,Plumbing Repair,Plumbing Repair — package 2,2697.31,90,1,True,True
+S00136,P0065,Laundry,Laundry — package 1,838.01,60,1,True,True
+S00137,P0066,Home Cleaning,Home Cleaning — package 1,1847.38,180,1,True,True
+S00138,P0067,Childcare,Childcare — package 1,1319.47,300,1,True,True
+S00139,P0068,Gardening,Gardening — package 1,1878.02,120,1,True,True
+S00140,P0069,Appliance Repair,Appliance Repair — package 1,2602.84,90,1,True,True
+S00141,P0070,Salon and Beauty,Salon and Beauty — package 1,1760.67,120,1,True,True
+S00142,P0071,Moving and Errands,Moving and Errands — package 1,3627.46,240,1,True,True
+S00143,P0071,Moving and Errands,Moving and Errands — package 2,3389.79,240,1,True,True
+S00144,P0071,Moving and Errands,Moving and Errands — package 3,2253.44,240,1,True,True
+S00145,P0072,Cooking,Cooking — package 1,1291.92,150,1,True,True
+S00146,P0072,Cooking,Cooking — package 2,1114.79,150,2,True,True
+S00147,P0072,Cooking,Cooking — package 3,1342.76,150,1,True,True
+S00148,P0073,Childcare,Childcare — package 1,1995.94,300,1,True,True
+S00149,P0073,Childcare,Childcare — package 2,2518.07,300,1,True,True
+S00150,P0074,Appliance Repair,Appliance Repair — package 1,3284.93,90,1,True,True
+S00151,P0074,Appliance Repair,Appliance Repair — package 2,3528.84,90,1,True,True
+S00152,P0075,Cooking,Cooking — package 1,1490.09,150,1,True,True
+S00153,P0076,Plumbing Repair,Plumbing Repair — package 1,2982.85,90,1,True,True
+S00154,P0076,Plumbing Repair,Plumbing Repair — package 2,1845.42,90,1,True,True
+S00155,P0076,Plumbing Repair,Plumbing Repair — package 3,2121.34,90,1,True,True
+S00156,P0077,Cooking,Cooking — package 1,1710.5,150,1,True,True
+S00157,P0077,Cooking,Cooking — package 2,1806.95,150,1,True,True
+S00158,P0077,Cooking,Cooking — package 3,1855.11,150,1,True,True
+S00159,P0078,Electrical Works,Electrical Works — package 1,3650.99,120,1,True,True
+S00160,P0078,Electrical Works,Electrical Works — package 2,3260.62,120,1,True,True
+S00161,P0078,Electrical Works,Electrical Works — package 3,2671.93,120,1,True,True
+S00162,P0079,Moving and Errands,Moving and Errands — package 1,3318.89,240,2,True,True
+S00163,P0079,Moving and Errands,Moving and Errands — package 2,3790.27,240,2,True,True
+S00164,P0080,Plumbing Repair,Plumbing Repair — package 1,2579.75,90,2,True,True
+S00165,P0081,Plumbing Repair,Plumbing Repair — package 1,2579.88,90,1,True,True
+S00166,P0081,Plumbing Repair,Plumbing Repair — package 2,2510.12,90,1,True,True
+S00167,P0081,Plumbing Repair,Plumbing Repair — package 3,2999.75,90,1,True,True
+S00168,P0082,Moving and Errands,Moving and Errands — package 1,3092.36,240,1,True,True
+S00169,P0082,Moving and Errands,Moving and Errands — package 2,4307.18,240,1,True,True
+S00170,P0082,Moving and Errands,Moving and Errands — package 3,4213.19,240,2,True,True
+S00171,P0083,Gardening,Gardening — package 1,1585.32,120,2,True,True
+S00172,P0083,Gardening,Gardening — package 2,1582.76,120,1,True,True
+S00173,P0084,Tutoring,Tutoring — package 1,1535.57,60,2,True,True
+S00174,P0084,Tutoring,Tutoring — package 2,1626.58,60,1,True,True
+S00175,P0084,Tutoring,Tutoring — package 3,1393.79,60,1,True,True
+S00176,P0085,Electrical Works,Electrical Works — package 1,3447.5,120,1,True,True
+S00177,P0086,Salon and Beauty,Salon and Beauty — package 1,2991.32,120,2,True,True
+S00178,P0086,Salon and Beauty,Salon and Beauty — package 2,2210.17,120,2,True,True
+S00179,P0087,Plumbing Repair,Plumbing Repair — package 1,2759.23,90,2,True,True
+S00180,P0087,Plumbing Repair,Plumbing Repair — package 2,3253.29,90,2,True,True
+S00181,P0088,Cooking,Cooking — package 1,1622.72,150,2,True,True
+S00182,P0088,Cooking,Cooking — package 2,1411.47,150,1,True,True
+S00183,P0089,Tutoring,Tutoring — package 1,1080.47,60,2,True,True
+S00184,P0089,Tutoring,Tutoring — package 2,1164.98,60,2,True,True
+S00185,P0089,Tutoring,Tutoring — package 3,1571.11,60,1,True,True
+S00186,P0090,Tutoring,Tutoring — package 1,1211.36,60,1,True,True
+S00187,P0091,Security Install,Security Install — package 1,5644.97,180,1,True,True
+S00188,P0091,Security Install,Security Install — package 2,6230.01,180,2,True,True
+S00189,P0091,Security Install,Security Install — package 3,5183.03,180,1,True,True
+S00190,P0092,Gardening,Gardening — package 1,1555.78,120,1,True,True
+S00191,P0092,Gardening,Gardening — package 2,1752.07,120,1,True,True
+S00192,P0093,Childcare,Childcare — package 1,2020.98,300,1,True,True
+S00193,P0093,Childcare,Childcare — package 2,2162.69,300,1,True,True
+S00194,P0093,Childcare,Childcare — package 3,1894.11,300,2,True,True
+S00195,P0094,Tutoring,Tutoring — package 1,1568.79,60,2,True,True
+S00196,P0094,Tutoring,Tutoring — package 2,939.86,60,2,True,True
+S00197,P0095,Home Cleaning,Home Cleaning — package 1,1489.88,180,1,True,True
+S00198,P0095,Home Cleaning,Home Cleaning — package 2,1766.53,180,1,True,True
+S00199,P0095,Home Cleaning,Home Cleaning — package 3,1991.57,180,2,True,True
+S00200,P0096,Tutoring,Tutoring — package 1,1314.25,60,1,True,True
+S00201,P0096,Tutoring,Tutoring — package 2,1050.51,60,1,True,True
+S00202,P0097,Moving and Errands,Moving and Errands — package 1,3487.34,240,1,True,True
+S00203,P0097,Moving and Errands,Moving and Errands — package 2,2768.37,240,1,True,True
+S00204,P0098,Salon and Beauty,Salon and Beauty — package 1,2502.59,120,2,True,True
+S00205,P0099,Plumbing Repair,Plumbing Repair — package 1,2774.98,90,1,True,True
+S00206,P0100,Laundry,Laundry — package 1,659.66,60,1,True,True
+S00207,P0100,Laundry,Laundry — package 2,1007.44,60,1,True,True
+S00208,P0101,Cooking,Cooking — package 1,1830.65,150,2,True,True
+S00209,P0101,Cooking,Cooking — package 2,1727.7,150,1,True,True
+S00210,P0102,Security Install,Security Install — package 1,5944.01,180,1,True,True
+S00211,P0102,Security Install,Security Install — package 2,7887.34,180,1,True,True
+S00212,P0102,Security Install,Security Install — package 3,5625.84,180,1,True,True
+S00213,P0103,Salon and Beauty,Salon and Beauty — package 1,1956.09,120,1,True,True
+S00214,P0103,Salon and Beauty,Salon and Beauty — package 2,2369.0,120,1,True,True
+S00215,P0103,Salon and Beauty,Salon and Beauty — package 3,2251.39,120,1,True,True
+S00216,P0104,Security Install,Security Install — package 1,5702.49,180,1,True,True
+S00217,P0104,Security Install,Security Install — package 2,3696.48,180,1,True,True
+S00218,P0105,Tutoring,Tutoring — package 1,1111.6,60,2,True,True
+S00219,P0105,Tutoring,Tutoring — package 2,1544.51,60,2,True,True
+S00220,P0105,Tutoring,Tutoring — package 3,1185.45,60,1,True,True
+S00221,P0106,Tutoring,Tutoring — package 1,1463.81,60,1,True,True
+S00222,P0106,Tutoring,Tutoring — package 2,1181.64,60,1,True,True
+S00223,P0107,Salon and Beauty,Salon and Beauty — package 1,2804.42,120,1,True,True
+S00224,P0107,Salon and Beauty,Salon and Beauty — package 2,2373.26,120,1,True,True
+S00225,P0108,Moving and Errands,Moving and Errands — package 1,3374.08,240,1,True,True
+S00226,P0108,Moving and Errands,Moving and Errands — package 2,4321.89,240,1,True,True
+S00227,P0108,Moving and Errands,Moving and Errands — package 3,3502.33,240,1,True,True
+S00228,P0109,Salon and Beauty,Salon and Beauty — package 1,1976.46,120,1,True,True
+S00229,P0110,Plumbing Repair,Plumbing Repair — package 1,1869.06,90,2,True,True
+S00230,P0110,Plumbing Repair,Plumbing Repair — package 2,3174.29,90,1,True,True
+S00231,P0110,Plumbing Repair,Plumbing Repair — package 3,2407.03,90,2,True,True
+S00232,P0111,Cooking,Cooking — package 1,830.74,150,1,True,True
+S00233,P0111,Cooking,Cooking — package 2,1456.43,150,1,True,True
+S00234,P0112,Salon and Beauty,Salon and Beauty — package 1,2271.66,120,1,True,True
+S00235,P0113,Tutoring,Tutoring — package 1,741.24,60,1,True,True
+S00236,P0114,Security Install,Security Install — package 1,5218.72,180,2,True,True
+S00237,P0115,Plumbing Repair,Plumbing Repair — package 1,2065.22,90,1,True,True
+S00238,P0115,Plumbing Repair,Plumbing Repair — package 2,1838.56,90,2,True,True
+S00239,P0115,Plumbing Repair,Plumbing Repair — package 3,3226.05,90,1,True,True
+S00240,P0116,Home Cleaning,Home Cleaning — package 1,1351.99,180,1,True,True
+S00241,P0116,Home Cleaning,Home Cleaning — package 2,1872.94,180,1,True,True
+S00242,P0117,Laundry,Laundry — package 1,1039.98,60,1,True,True
+S00243,P0117,Laundry,Laundry — package 2,416.3,60,2,True,True
+S00244,P0117,Laundry,Laundry — package 3,988.33,60,1,True,True
+S00245,P0118,Cooking,Cooking — package 1,1116.13,150,2,True,True
+S00246,P0118,Cooking,Cooking — package 2,1610.96,150,1,True,True
+S00247,P0118,Cooking,Cooking — package 3,1057.0,150,1,True,True
+S00248,P0119,Gardening,Gardening — package 1,1819.84,120,1,True,True
+S00249,P0119,Gardening,Gardening — package 2,1350.12,120,1,True,True
+S00250,P0120,Home Cleaning,Home Cleaning — package 1,2132.4,180,1,True,True
+S00251,P0121,Security Install,Security Install — package 1,5958.02,180,1,True,True
+S00252,P0121,Security Install,Security Install — package 2,4851.32,180,2,True,True
+S00253,P0121,Security Install,Security Install — package 3,3462.72,180,1,True,True
+S00254,P0122,Plumbing Repair,Plumbing Repair — package 1,1913.42,90,1,True,True
+S00255,P0122,Plumbing Repair,Plumbing Repair — package 2,2776.11,90,1,True,True
+S00256,P0122,Plumbing Repair,Plumbing Repair — package 3,2724.39,90,2,True,True
+S00257,P0123,Salon and Beauty,Salon and Beauty — package 1,1945.07,120,1,True,True
+S00258,P0123,Salon and Beauty,Salon and Beauty — package 2,2538.45,120,1,True,True
+S00259,P0124,Moving and Errands,Moving and Errands — package 1,3718.41,240,1,True,True
+S00260,P0124,Moving and Errands,Moving and Errands — package 2,4407.16,240,1,True,True
+S00261,P0124,Moving and Errands,Moving and Errands — package 3,3745.58,240,1,True,True
+S00262,P0125,Plumbing Repair,Plumbing Repair — package 1,2213.89,90,1,True,True
+S00263,P0126,Appliance Repair,Appliance Repair — package 1,3074.08,90,1,True,True
+S00264,P0126,Appliance Repair,Appliance Repair — package 2,3181.74,90,1,True,True
+S00265,P0126,Appliance Repair,Appliance Repair — package 3,3875.11,90,1,True,True
+S00266,P0127,Security Install,Security Install — package 1,3790.04,180,2,True,True
+S00267,P0128,Tutoring,Tutoring — package 1,1367.74,60,1,True,True
+S00268,P0128,Tutoring,Tutoring — package 2,1389.4,60,1,True,True
+S00269,P0129,Tutoring,Tutoring — package 1,1379.41,60,1,True,True
+S00270,P0129,Tutoring,Tutoring — package 2,1165.81,60,1,True,True
+S00271,P0130,Electrical Works,Electrical Works — package 1,2783.46,120,2,True,True
+S00272,P0130,Electrical Works,Electrical Works — package 2,4074.25,120,1,True,True
+S00273,P0130,Electrical Works,Electrical Works — package 3,2947.95,120,1,True,True
+S00274,P0131,Childcare,Childcare — package 1,2223.62,300,1,True,True
+S00275,P0131,Childcare,Childcare — package 2,1806.73,300,1,True,True
+S00276,P0132,Gardening,Gardening — package 1,1532.64,120,1,True,True
+S00277,P0132,Gardening,Gardening — package 2,1917.14,120,2,True,True
+S00278,P0132,Gardening,Gardening — package 3,1349.29,120,1,True,True
+S00279,P0133,Security Install,Security Install — package 1,5449.12,180,1,True,True
+S00280,P0133,Security Install,Security Install — package 2,6478.56,180,1,True,True
+S00281,P0134,Appliance Repair,Appliance Repair — package 1,3124.57,90,1,True,True
+S00282,P0135,Childcare,Childcare — package 1,1584.91,300,1,True,True
+S00283,P0135,Childcare,Childcare — package 2,1609.8,300,1,True,True
+S00284,P0135,Childcare,Childcare — package 3,1520.43,300,1,True,True
+S00285,P0136,Laundry,Laundry — package 1,946.99,60,1,True,True
+S00286,P0136,Laundry,Laundry — package 2,479.98,60,1,True,True
+S00287,P0137,Security Install,Security Install — package 1,4195.16,180,1,True,True
+S00288,P0137,Security Install,Security Install — package 2,6846.63,180,1,True,True
+S00289,P0137,Security Install,Security Install — package 3,4268.84,180,1,True,True
+S00290,P0138,Laundry,Laundry — package 1,958.66,60,1,True,True
+S00291,P0138,Laundry,Laundry — package 2,721.6,60,1,True,True
+S00292,P0138,Laundry,Laundry — package 3,677.65,60,1,True,True
+S00293,P0139,Gardening,Gardening — package 1,1804.9,120,1,True,True
+S00294,P0139,Gardening,Gardening — package 2,2121.87,120,1,True,True
+S00295,P0140,Electrical Works,Electrical Works — package 1,3118.16,120,1,True,True
+S00296,P0140,Electrical Works,Electrical Works — package 2,2819.08,120,1,True,True
+S00297,P0141,Tutoring,Tutoring — package 1,1300.32,60,2,True,True
+S00298,P0142,Plumbing Repair,Plumbing Repair — package 1,2945.98,90,1,True,True
+S00299,P0142,Plumbing Repair,Plumbing Repair — package 2,2120.73,90,1,True,True
+S00300,P0143,Moving and Errands,Moving and Errands — package 1,3472.23,240,1,True,True
+S00301,P0143,Moving and Errands,Moving and Errands — package 2,3053.64,240,2,True,True
+S00302,P0144,Plumbing Repair,Plumbing Repair — package 1,3284.04,90,1,True,True
+S00303,P0144,Plumbing Repair,Plumbing Repair — package 2,2638.33,90,1,True,True
+S00304,P0145,Cooking,Cooking — package 1,1429.19,150,2,True,True
+S00305,P0145,Cooking,Cooking — package 2,1852.35,150,1,True,True
+S00306,P0145,Cooking,Cooking — package 3,1305.31,150,1,True,True
+S00307,P0146,Laundry,Laundry — package 1,865.29,60,1,True,True
+S00308,P0146,Laundry,Laundry — package 2,786.4,60,1,True,True
+S00309,P0146,Laundry,Laundry — package 3,971.09,60,1,True,True
+S00310,P0147,Home Cleaning,Home Cleaning — package 1,1374.38,180,1,True,True
+S00311,P0147,Home Cleaning,Home Cleaning — package 2,1643.46,180,2,True,True
+S00312,P0147,Home Cleaning,Home Cleaning — package 3,1658.48,180,2,True,True
+S00313,P0148,Plumbing Repair,Plumbing Repair — package 1,2950.77,90,1,True,True
+S00314,P0148,Plumbing Repair,Plumbing Repair — package 2,2381.04,90,1,True,True
+S00315,P0149,Childcare,Childcare — package 1,1477.39,300,1,True,True
+S00316,P0150,Cooking,Cooking — package 1,1632.58,150,1,True,True
+S00317,P0150,Cooking,Cooking — package 2,1847.22,150,1,True,True
+S00318,P0151,Childcare,Childcare — package 1,1948.96,300,2,True,True
+S00319,P0151,Childcare,Childcare — package 2,2321.08,300,1,True,True
+S00320,P0151,Childcare,Childcare — package 3,1470.72,300,1,True,True
+S00321,P0152,Security Install,Security Install — package 1,4981.55,180,1,True,True
+S00322,P0152,Security Install,Security Install — package 2,3123.85,180,2,True,True
+S00323,P0153,Cooking,Cooking — package 1,1890.88,150,2,True,True
+S00324,P0153,Cooking,Cooking — package 2,1952.16,150,2,True,True
+S00325,P0154,Salon and Beauty,Salon and Beauty — package 1,2976.95,120,1,True,True
+S00326,P0154,Salon and Beauty,Salon and Beauty — package 2,2577.51,120,1,True,True
+S00327,P0154,Salon and Beauty,Salon and Beauty — package 3,2021.31,120,2,True,True
+S00328,P0155,Laundry,Laundry — package 1,790.24,60,1,True,True
+S00329,P0155,Laundry,Laundry — package 2,1108.51,60,2,True,True
+S00330,P0156,Tutoring,Tutoring — package 1,1135.43,60,1,True,True
+S00331,P0156,Tutoring,Tutoring — package 2,1061.41,60,1,True,True
+S00332,P0156,Tutoring,Tutoring — package 3,945.13,60,1,True,True
+S00333,P0157,Home Cleaning,Home Cleaning — package 1,2371.37,180,1,True,True
+S00334,P0158,Cooking,Cooking — package 1,1051.57,150,1,True,True
+S00335,P0159,Salon and Beauty,Salon and Beauty — package 1,1790.39,120,1,True,True
+S00336,P0159,Salon and Beauty,Salon and Beauty — package 2,2591.38,120,2,True,True
+S00337,P0159,Salon and Beauty,Salon and Beauty — package 3,1947.92,120,1,True,True
+S00338,P0160,Gardening,Gardening — package 1,1462.5,120,1,True,True
+S00339,P0161,Childcare,Childcare — package 1,2196.91,300,1,True,True
+S00340,P0161,Childcare,Childcare — package 2,2241.14,300,2,True,True
+S00341,P0162,Security Install,Security Install — package 1,4939.89,180,1,True,True
+S00342,P0163,Electrical Works,Electrical Works — package 1,3716.11,120,1,True,True
+S00343,P0163,Electrical Works,Electrical Works — package 2,2830.75,120,1,True,True
+S00344,P0163,Electrical Works,Electrical Works — package 3,2351.18,120,1,True,True
+S00345,P0164,Security Install,Security Install — package 1,5219.85,180,1,True,True
+S00346,P0164,Security Install,Security Install — package 2,5306.25,180,1,True,True
+S00347,P0165,Tutoring,Tutoring — package 1,1207.38,60,2,True,True
+S00348,P0166,Cooking,Cooking — package 1,1207.06,150,1,True,True
+S00349,P0166,Cooking,Cooking — package 2,1509.84,150,1,True,True
+S00350,P0167,Security Install,Security Install — package 1,3252.82,180,1,True,True
+S00351,P0167,Security Install,Security Install — package 2,5908.72,180,1,True,True
+S00352,P0168,Appliance Repair,Appliance Repair — package 1,2915.51,90,2,True,True
+S00353,P0168,Appliance Repair,Appliance Repair — package 2,2833.25,90,1,True,True
+S00354,P0169,Salon and Beauty,Salon and Beauty — package 1,2108.87,120,2,True,True
+S00355,P0169,Salon and Beauty,Salon and Beauty — package 2,2538.56,120,1,True,True
+S00356,P0170,Laundry,Laundry — package 1,864.22,60,1,True,True
+S00357,P0170,Laundry,Laundry — package 2,826.17,60,1,True,True
+S00358,P0171,Home Cleaning,Home Cleaning — package 1,2074.88,180,2,True,True
+S00359,P0171,Home Cleaning,Home Cleaning — package 2,1557.43,180,1,True,True
+S00360,P0171,Home Cleaning,Home Cleaning — package 3,1844.29,180,2,True,True
+S00361,P0172,Moving and Errands,Moving and Errands — package 1,2976.24,240,1,True,True
+S00362,P0172,Moving and Errands,Moving and Errands — package 2,3378.31,240,1,True,True
+S00363,P0173,Plumbing Repair,Plumbing Repair — package 1,1766.2,90,1,True,True
+S00364,P0173,Plumbing Repair,Plumbing Repair — package 2,3134.84,90,1,True,True
+S00365,P0174,Laundry,Laundry — package 1,1066.22,60,1,True,True
+S00366,P0174,Laundry,Laundry — package 2,798.67,60,1,True,True
+S00367,P0175,Cooking,Cooking — package 1,1768.35,150,2,True,True
+S00368,P0176,Moving and Errands,Moving and Errands — package 1,3979.52,240,1,True,True
+S00369,P0176,Moving and Errands,Moving and Errands — package 2,3318.21,240,1,True,True
+S00370,P0176,Moving and Errands,Moving and Errands — package 3,3083.18,240,2,True,True
+S00371,P0177,Tutoring,Tutoring — package 1,1050.22,60,1,True,True
+S00372,P0177,Tutoring,Tutoring — package 2,1520.79,60,1,True,True
+S00373,P0177,Tutoring,Tutoring — package 3,1204.43,60,1,True,True
+S00374,P0178,Appliance Repair,Appliance Repair — package 1,2812.03,90,1,True,True
+S00375,P0178,Appliance Repair,Appliance Repair — package 2,2649.85,90,1,True,True
+S00376,P0179,Salon and Beauty,Salon and Beauty — package 1,2553.95,120,1,True,True
+S00377,P0180,Salon and Beauty,Salon and Beauty — package 1,2150.01,120,1,True,True
+S00378,P0181,Home Cleaning,Home Cleaning — package 1,2080.13,180,1,True,True
+S00379,P0181,Home Cleaning,Home Cleaning — package 2,2385.89,180,1,True,True
+S00380,P0182,Cooking,Cooking — package 1,1435.83,150,2,True,True
+S00381,P0183,Plumbing Repair,Plumbing Repair — package 1,1907.51,90,1,True,True
+S00382,P0183,Plumbing Repair,Plumbing Repair — package 2,2033.47,90,2,True,True
+S00383,P0184,Gardening,Gardening — package 1,1927.12,120,1,True,True
+S00384,P0185,Electrical Works,Electrical Works — package 1,2738.29,120,1,True,True
+S00385,P0186,Salon and Beauty,Salon and Beauty — package 1,2814.27,120,1,True,True
+S00386,P0187,Security Install,Security Install — package 1,4232.22,180,1,True,True
+S00387,P0187,Security Install,Security Install — package 2,6632.36,180,1,True,True
+S00388,P0187,Security Install,Security Install — package 3,5217.03,180,1,True,True
+S00389,P0188,Salon and Beauty,Salon and Beauty — package 1,2484.47,120,1,True,True
+S00390,P0188,Salon and Beauty,Salon and Beauty — package 2,1973.71,120,2,True,True
+S00391,P0188,Salon and Beauty,Salon and Beauty — package 3,2286.9,120,1,True,True
+S00392,P0189,Gardening,Gardening — package 1,1265.84,120,1,True,True
+S00393,P0189,Gardening,Gardening — package 2,1279.06,120,2,True,True
+S00394,P0190,Plumbing Repair,Plumbing Repair — package 1,2246.6,90,1,True,True
+S00395,P0191,Plumbing Repair,Plumbing Repair — package 1,2355.09,90,1,True,True
+S00396,P0191,Plumbing Repair,Plumbing Repair — package 2,2208.21,90,2,True,True
+S00397,P0191,Plumbing Repair,Plumbing Repair — package 3,1983.87,90,1,True,True
+S00398,P0192,Salon and Beauty,Salon and Beauty — package 1,2648.03,120,1,True,True
+S00399,P0193,Home Cleaning,Home Cleaning — package 1,1734.34,180,1,True,True
+S00400,P0193,Home Cleaning,Home Cleaning — package 2,1920.99,180,1,True,True
+S00401,P0193,Home Cleaning,Home Cleaning — package 3,1973.93,180,1,True,True
+S00402,P0194,Appliance Repair,Appliance Repair — package 1,2738.17,90,1,True,True
+S00403,P0194,Appliance Repair,Appliance Repair — package 2,2739.96,90,2,True,True
+S00404,P0195,Salon and Beauty,Salon and Beauty — package 1,2851.55,120,1,True,True
+S00405,P0196,Home Cleaning,Home Cleaning — package 1,1101.58,180,1,True,True
+S00406,P0196,Home Cleaning,Home Cleaning — package 2,2633.31,180,2,True,True
+S00407,P0197,Gardening,Gardening — package 1,1267.47,120,2,True,True
+S00408,P0197,Gardening,Gardening — package 2,1681.17,120,1,True,True
+S00409,P0197,Gardening,Gardening — package 3,1955.05,120,1,True,True
+S00410,P0198,Home Cleaning,Home Cleaning — package 1,1824.05,180,1,True,True
+S00411,P0199,Gardening,Gardening — package 1,1442.62,120,1,True,True
+S00412,P0200,Salon and Beauty,Salon and Beauty — package 1,2240.97,120,1,True,True
+S00413,P0200,Salon and Beauty,Salon and Beauty — package 2,1978.56,120,2,True,True
+S00414,P0200,Salon and Beauty,Salon and Beauty — package 3,1458.81,120,1,True,True
+S00415,P0201,Gardening,Gardening — package 1,1632.24,120,1,True,True
+S00416,P0202,Childcare,Childcare — package 1,1798.27,300,1,True,True
+S00417,P0203,Plumbing Repair,Plumbing Repair — package 1,2177.12,90,1,True,True
+S00418,P0204,Childcare,Childcare — package 1,1611.35,300,1,True,True
+S00419,P0204,Childcare,Childcare — package 2,2356.67,300,1,True,True
+S00420,P0204,Childcare,Childcare — package 3,1417.5,300,1,True,True
+S00421,P0205,Salon and Beauty,Salon and Beauty — package 1,1502.32,120,2,True,True
+S00422,P0205,Salon and Beauty,Salon and Beauty — package 2,2062.92,120,1,True,True
+S00423,P0206,Security Install,Security Install — package 1,3697.75,180,1,True,True
+S00424,P0206,Security Install,Security Install — package 2,6099.32,180,1,True,True
+S00425,P0207,Security Install,Security Install — package 1,5266.72,180,1,True,True
+S00426,P0208,Laundry,Laundry — package 1,1185.27,60,1,True,True
+S00427,P0209,Cooking,Cooking — package 1,1483.27,150,1,True,True
+S00428,P0209,Cooking,Cooking — package 2,1356.26,150,2,True,True
+S00429,P0210,Childcare,Childcare — package 1,2351.71,300,1,True,True
+S00430,P0210,Childcare,Childcare — package 2,1909.07,300,2,True,True
+S00431,P0210,Childcare,Childcare — package 3,2036.97,300,1,True,True
+S00432,P0211,Laundry,Laundry — package 1,945.33,60,1,True,True
+S00433,P0211,Laundry,Laundry — package 2,880.3,60,2,True,True
+S00434,P0212,Childcare,Childcare — package 1,2365.52,300,1,True,True
+S00435,P0212,Childcare,Childcare — package 2,2086.25,300,1,True,True
+S00436,P0213,Electrical Works,Electrical Works — package 1,3088.93,120,1,True,True
+S00437,P0213,Electrical Works,Electrical Works — package 2,2036.79,120,1,True,True
+S00438,P0213,Electrical Works,Electrical Works — package 3,2125.34,120,1,True,True
+S00439,P0214,Plumbing Repair,Plumbing Repair — package 1,2670.7,90,1,True,True
+S00440,P0214,Plumbing Repair,Plumbing Repair — package 2,3065.01,90,1,True,True
+S00441,P0215,Security Install,Security Install — package 1,4780.23,180,2,True,True
+S00442,P0215,Security Install,Security Install — package 2,4240.53,180,2,True,True
+S00443,P0216,Laundry,Laundry — package 1,769.67,60,1,True,True
+S00444,P0216,Laundry,Laundry — package 2,1092.51,60,1,True,True
+S00445,P0216,Laundry,Laundry — package 3,957.45,60,1,True,True
+S00446,P0217,Laundry,Laundry — package 1,1003.91,60,1,True,True
+S00447,P0218,Gardening,Gardening — package 1,1710.31,120,1,True,True
+S00448,P0218,Gardening,Gardening — package 2,2196.27,120,1,True,True
+S00449,P0218,Gardening,Gardening — package 3,1433.07,120,2,True,True
+S00450,P0219,Cooking,Cooking — package 1,1449.01,150,1,True,True
+S00451,P0220,Gardening,Gardening — package 1,1811.46,120,1,True,True
+S00452,P0220,Gardening,Gardening — package 2,1357.9,120,1,True,True
+S00453,P0220,Gardening,Gardening — package 3,1909.78,120,1,True,True
+S00454,P0221,Salon and Beauty,Salon and Beauty — package 1,2337.63,120,1,True,True
+S00455,P0221,Salon and Beauty,Salon and Beauty — package 2,2213.74,120,1,True,True
+S00456,P0221,Salon and Beauty,Salon and Beauty — package 3,1992.72,120,1,True,True
+S00457,P0222,Appliance Repair,Appliance Repair — package 1,3662.56,90,1,True,True
+S00458,P0223,Home Cleaning,Home Cleaning — package 1,1494.75,180,1,True,True
+S00459,P0223,Home Cleaning,Home Cleaning — package 2,2002.35,180,1,True,True
+S00460,P0223,Home Cleaning,Home Cleaning — package 3,2487.0,180,2,True,True
+S00461,P0224,Tutoring,Tutoring — package 1,1227.28,60,2,True,True
+S00462,P0224,Tutoring,Tutoring — package 2,1230.95,60,1,True,True
+S00463,P0225,Security Install,Security Install — package 1,5616.46,180,1,True,True
+S00464,P0226,Salon and Beauty,Salon and Beauty — package 1,2177.21,120,1,True,True
+S00465,P0226,Salon and Beauty,Salon and Beauty — package 2,2045.42,120,2,True,True
+S00466,P0226,Salon and Beauty,Salon and Beauty — package 3,2488.17,120,1,True,True
+S00467,P0227,Moving and Errands,Moving and Errands — package 1,3822.49,240,1,True,True
+S00468,P0228,Home Cleaning,Home Cleaning — package 1,2281.31,180,2,True,True
+S00469,P0229,Moving and Errands,Moving and Errands — package 1,3161.86,240,2,True,True
+S00470,P0230,Gardening,Gardening — package 1,1579.76,120,1,True,True
+S00471,P0230,Gardening,Gardening — package 2,1196.97,120,1,True,True
+S00472,P0230,Gardening,Gardening — package 3,1597.12,120,1,True,True
+S00473,P0231,Laundry,Laundry — package 1,858.98,60,1,True,True
+S00474,P0231,Laundry,Laundry — package 2,1089.22,60,1,True,True
+S00475,P0232,Tutoring,Tutoring — package 1,977.95,60,1,True,True
+S00476,P0233,Moving and Errands,Moving and Errands — package 1,4182.75,240,1,True,True
+S00477,P0233,Moving and Errands,Moving and Errands — package 2,3515.17,240,1,True,True
+S00478,P0234,Laundry,Laundry — package 1,870.64,60,1,True,True
+S00479,P0234,Laundry,Laundry — package 2,1035.58,60,1,True,True
+S00480,P0235,Tutoring,Tutoring — package 1,1146.21,60,1,True,True
+S00481,P0235,Tutoring,Tutoring — package 2,1059.95,60,1,True,True
+S00482,P0236,Childcare,Childcare — package 1,2324.98,300,1,True,True
+S00483,P0237,Salon and Beauty,Salon and Beauty — package 1,1803.09,120,2,True,True
+S00484,P0237,Salon and Beauty,Salon and Beauty — package 2,2075.35,120,1,True,True
+S00485,P0237,Salon and Beauty,Salon and Beauty — package 3,1798.39,120,2,True,True
+S00486,P0238,Salon and Beauty,Salon and Beauty — package 1,2143.58,120,1,True,True
+S00487,P0238,Salon and Beauty,Salon and Beauty — package 2,2948.73,120,1,True,True
+S00488,P0239,Salon and Beauty,Salon and Beauty — package 1,2185.75,120,1,True,True
+S00489,P0240,Salon and Beauty,Salon and Beauty — package 1,1141.66,120,1,True,True
+S00490,P0240,Salon and Beauty,Salon and Beauty — package 2,2180.6,120,1,True,True
+S00491,P0240,Salon and Beauty,Salon and Beauty — package 3,2788.47,120,1,True,True
+S00492,P0241,Childcare,Childcare — package 1,1591.87,300,2,True,True
+S00493,P0241,Childcare,Childcare — package 2,1408.3,300,2,True,True
+S00494,P0242,Childcare,Childcare — package 1,1905.57,300,1,True,True
+S00495,P0242,Childcare,Childcare — package 2,1674.4,300,1,True,True
+S00496,P0242,Childcare,Childcare — package 3,1927.0,300,1,True,True
+S00497,P0243,Appliance Repair,Appliance Repair — package 1,2971.67,90,1,True,True
+S00498,P0243,Appliance Repair,Appliance Repair — package 2,2903.65,90,2,True,True
+S00499,P0243,Appliance Repair,Appliance Repair — package 3,3350.81,90,1,True,True
+S00500,P0244,Appliance Repair,Appliance Repair — package 1,3515.41,90,2,True,True
+S00501,P0244,Appliance Repair,Appliance Repair — package 2,3106.78,90,1,True,True
+S00502,P0245,Moving and Errands,Moving and Errands — package 1,4280.68,240,1,True,True
+S00503,P0246,Gardening,Gardening — package 1,1609.57,120,1,True,True
+S00504,P0247,Gardening,Gardening — package 1,2067.11,120,1,True,True
+S00505,P0248,Security Install,Security Install — package 1,4591.8,180,1,True,True
+S00506,P0249,Salon and Beauty,Salon and Beauty — package 1,2516.97,120,1,True,True
+S00507,P0249,Salon and Beauty,Salon and Beauty — package 2,2072.54,120,1,True,True
+S00508,P0249,Salon and Beauty,Salon and Beauty — package 3,2331.35,120,1,True,True
+S00509,P0250,Electrical Works,Electrical Works — package 1,2641.26,120,1,True,True
+S00510,P0251,Tutoring,Tutoring — package 1,1257.33,60,2,True,True
+S00511,P0252,Gardening,Gardening — package 1,1860.3,120,1,True,True
+S00512,P0252,Gardening,Gardening — package 2,1879.33,120,1,True,True
+S00513,P0253,Home Cleaning,Home Cleaning — package 1,2044.89,180,1,True,True
+S00514,P0253,Home Cleaning,Home Cleaning — package 2,1825.26,180,1,True,True
+S00515,P0254,Electrical Works,Electrical Works — package 1,3363.27,120,1,True,True
+S00516,P0254,Electrical Works,Electrical Works — package 2,4400.52,120,1,True,True
+S00517,P0255,Plumbing Repair,Plumbing Repair — package 1,2820.02,90,1,True,True
+S00518,P0255,Plumbing Repair,Plumbing Repair — package 2,2612.13,90,1,True,True
+S00519,P0255,Plumbing Repair,Plumbing Repair — package 3,2048.34,90,1,True,True
+S00520,P0256,Moving and Errands,Moving and Errands — package 1,2950.29,240,1,True,True
+S00521,P0256,Moving and Errands,Moving and Errands — package 2,3469.94,240,1,True,True
+S00522,P0257,Cooking,Cooking — package 1,1353.03,150,1,True,True
+S00523,P0258,Moving and Errands,Moving and Errands — package 1,3364.28,240,1,True,True
+S00524,P0259,Plumbing Repair,Plumbing Repair — package 1,2346.32,90,1,True,True

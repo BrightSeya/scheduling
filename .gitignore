@@ -6,4 +6,10 @@ __pycache__/
 .pytest_cache/
 models/
 data/*.csv
+# ...but the seed dataset itself is checked in, so you do not have to generate it.
+!data/bookings.csv
+!data/households.csv
+!data/providers.csv
+!data/services.csv
+!data/slots.csv
 .DS_Store

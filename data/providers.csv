@@ -1,0 +1,261 @@
+provider_id,business_name,category,county,is_verified,rating_average,total_completed_jobs,is_synthetic
+P0000,Childcare Services 0000,Childcare,Machakos,True,5.0,368,True
+P0001,Home Services 0001,Home Cleaning,Nakuru,True,3.87,395,True
+P0002,Gardening Services 0002,Gardening,Kakamega,True,3.84,184,True
+P0003,Laundry Services 0003,Laundry,Nakuru,True,4.93,273,True
+P0004,Plumbing Services 0004,Plumbing Repair,Uasin Gishu,False,3.7,158,True
+P0005,Home Services 0005,Home Cleaning,Uasin Gishu,True,4.18,396,True
+P0006,Plumbing Services 0006,Plumbing Repair,Kiambu,True,4.28,84,True
+P0007,Home Services 0007,Home Cleaning,Kakamega,True,4.29,230,True
+P0008,Gardening Services 0008,Gardening,Mombasa,False,4.43,123,True
+P0009,Appliance Services 0009,Appliance Repair,Machakos,True,4.53,195,True
+P0010,Security Services 0010,Security Install,Machakos,False,4.48,216,True
+P0011,Appliance Services 0011,Appliance Repair,Nakuru,True,4.33,365,True
+P0012,Moving Services 0012,Moving and Errands,Nakuru,False,4.49,161,True
+P0013,Electrical Services 0013,Electrical Works,Machakos,True,3.86,173,True
+P0014,Childcare Services 0014,Childcare,Kisumu,False,3.33,146,True
+P0015,Salon Services 0015,Salon and Beauty,Uasin Gishu,False,3.71,128,True
+P0016,Plumbing Services 0016,Plumbing Repair,Kakamega,False,4.64,29,True
+P0017,Gardening Services 0017,Gardening,Machakos,True,4.22,129,True
+P0018,Tutoring Services 0018,Tutoring,Nakuru,True,4.73,259,True
+P0019,Security Services 0019,Security Install,Kakamega,True,3.82,359,True
+P0020,Electrical Services 0020,Electrical Works,Mombasa,True,4.77,249,True
+P0021,Laundry Services 0021,Laundry,Uasin Gishu,True,4.94,259,True
+P0022,Electrical Services 0022,Electrical Works,Kiambu,True,3.63,49,True
+P0023,Home Services 0023,Home Cleaning,Nakuru,True,3.8,15,True
+P0024,Electrical Services 0024,Electrical Works,Kiambu,True,3.47,80,True
+P0025,Moving Services 0025,Moving and Errands,Nakuru,True,4.16,50,True
+P0026,Cooking Services 0026,Cooking,Kakamega,True,4.75,180,True
+P0027,Plumbing Services 0027,Plumbing Repair,Machakos,True,5.0,366,True
+P0028,Plumbing Services 0028,Plumbing Repair,Nakuru,False,3.73,156,True
+P0029,Moving Services 0029,Moving and Errands,Uasin Gishu,True,4.44,63,True
+P0030,Home Services 0030,Home Cleaning,Uasin Gishu,True,2.92,163,True
+P0031,Plumbing Services 0031,Plumbing Repair,Machakos,False,4.5,349,True
+P0032,Cooking Services 0032,Cooking,Uasin Gishu,False,3.69,9,True
+P0033,Laundry Services 0033,Laundry,Nakuru,False,3.9,342,True
+P0034,Childcare Services 0034,Childcare,Uasin Gishu,False,4.14,153,True
+P0035,Gardening Services 0035,Gardening,Kiambu,True,4.51,191,True
+P0036,Security Services 0036,Security Install,Nakuru,True,4.09,337,True
+P0037,Laundry Services 0037,Laundry,Kisumu,True,4.64,171,True
+P0038,Childcare Services 0038,Childcare,Kakamega,True,4.83,340,True
+P0039,Cooking Services 0039,Cooking,Nairobi,True,4.55,202,True
+P0040,Gardening Services 0040,Gardening,Mombasa,True,4.88,306,True
+P0041,Cooking Services 0041,Cooking,Mombasa,True,4.11,103,True
+P0042,Cooking Services 0042,Cooking,Kakamega,True,3.03,353,True
+P0043,Moving Services 0043,Moving and Errands,Machakos,True,4.28,272,True
+P0044,Salon Services 0044,Salon and Beauty,Kiambu,True,4.47,146,True
+P0045,Laundry Services 0045,Laundry,Kiambu,True,3.51,14,True
+P0046,Security Services 0046,Security Install,Nairobi,True,4.44,11,True
+P0047,Cooking Services 0047,Cooking,Machakos,True,4.03,369,True
+P0048,Cooking Services 0048,Cooking,Nairobi,False,4.29,345,True
+P0049,Tutoring Services 0049,Tutoring,Machakos,True,4.38,202,True
+P0050,Plumbing Services 0050,Plumbing Repair,Kisumu,True,4.49,17,True
+P0051,Salon Services 0051,Salon and Beauty,Uasin Gishu,True,4.33,1,True
+P0052,Childcare Services 0052,Childcare,Nakuru,True,4.14,308,True
+P0053,Salon Services 0053,Salon and Beauty,Uasin Gishu,False,4.89,399,True
+P0054,Security Services 0054,Security Install,Machakos,True,3.15,54,True
+P0055,Gardening Services 0055,Gardening,Machakos,True,4.89,6,True
+P0056,Electrical Services 0056,Electrical Works,Kiambu,True,3.81,271,True
+P0057,Moving Services 0057,Moving and Errands,Kisumu,True,4.01,174,True
+P0058,Childcare Services 0058,Childcare,Machakos,False,4.21,291,True
+P0059,Salon Services 0059,Salon and Beauty,Nakuru,True,3.97,231,True
+P0060,Cooking Services 0060,Cooking,Kakamega,True,4.26,88,True
+P0061,Electrical Services 0061,Electrical Works,Kakamega,True,3.48,216,True
+P0062,Childcare Services 0062,Childcare,Uasin Gishu,True,4.49,118,True
+P0063,Cooking Services 0063,Cooking,Kakamega,False,4.05,165,True
+P0064,Plumbing Services 0064,Plumbing Repair,Mombasa,True,5.0,70,True
+P0065,Laundry Services 0065,Laundry,Kakamega,True,3.06,29,True
+P0066,Home Services 0066,Home Cleaning,Kakamega,True,4.41,276,True
+P0067,Childcare Services 0067,Childcare,Nairobi,True,4.15,120,True
+P0068,Gardening Services 0068,Gardening,Machakos,True,3.29,29,True
+P0069,Appliance Services 0069,Appliance Repair,Machakos,False,4.67,34,True
+P0070,Salon Services 0070,Salon and Beauty,Nairobi,True,4.25,49,True
+P0071,Moving Services 0071,Moving and Errands,Kakamega,True,3.75,310,True
+P0072,Cooking Services 0072,Cooking,Kiambu,True,4.41,139,True
+P0073,Childcare Services 0073,Childcare,Kisumu,True,4.38,278,True
+P0074,Appliance Services 0074,Appliance Repair,Kiambu,True,4.38,355,True
+P0075,Cooking Services 0075,Cooking,Kakamega,True,4.47,238,True
+P0076,Plumbing Services 0076,Plumbing Repair,Machakos,True,5.0,337,True
+P0077,Cooking Services 0077,Cooking,Kakamega,True,4.19,112,True
+P0078,Electrical Services 0078,Electrical Works,Nakuru,True,4.27,249,True
+P0079,Moving Services 0079,Moving and Errands,Uasin Gishu,True,4.44,199,True
+P0080,Plumbing Services 0080,Plumbing Repair,Uasin Gishu,True,4.31,205,True
+P0081,Plumbing Services 0081,Plumbing Repair,Nakuru,True,4.63,86,True
+P0082,Moving Services 0082,Moving and Errands,Kakamega,True,4.46,149,True
+P0083,Gardening Services 0083,Gardening,Kisumu,True,4.31,368,True
+P0084,Tutoring Services 0084,Tutoring,Kakamega,True,4.09,339,True
+P0085,Electrical Services 0085,Electrical Works,Mombasa,True,4.27,286,True
+P0086,Salon Services 0086,Salon and Beauty,Machakos,True,4.28,258,True
+P0087,Plumbing Services 0087,Plumbing Repair,Kakamega,True,4.56,289,True
+P0088,Cooking Services 0088,Cooking,Nairobi,True,4.96,373,True
+P0089,Tutoring Services 0089,Tutoring,Nairobi,False,4.19,238,True
+P0090,Tutoring Services 0090,Tutoring,Kiambu,False,3.42,351,True
+P0091,Security Services 0091,Security Install,Kakamega,False,3.39,94,True
+P0092,Gardening Services 0092,Gardening,Uasin Gishu,True,4.38,25,True
+P0093,Childcare Services 0093,Childcare,Kiambu,True,4.69,94,True
+P0094,Tutoring Services 0094,Tutoring,Nairobi,True,4.31,323,True
+P0095,Home Services 0095,Home Cleaning,Uasin Gishu,True,4.19,349,True
+P0096,Tutoring Services 0096,Tutoring,Kiambu,False,4.06,42,True
+P0097,Moving Services 0097,Moving and Errands,Uasin Gishu,True,4.53,124,True
+P0098,Salon Services 0098,Salon and Beauty,Uasin Gishu,True,4.15,100,True
+P0099,Plumbing Services 0099,Plumbing Repair,Mombasa,True,3.69,341,True
+P0100,Laundry Services 0100,Laundry,Kiambu,True,4.72,398,True
+P0101,Cooking Services 0101,Cooking,Mombasa,True,4.42,87,True
+P0102,Security Services 0102,Security Install,Nairobi,True,4.14,274,True
+P0103,Salon Services 0103,Salon and Beauty,Machakos,True,4.55,161,True
+P0104,Security Services 0104,Security Install,Uasin Gishu,True,3.92,342,True
+P0105,Tutoring Services 0105,Tutoring,Nakuru,True,4.1,240,True
+P0106,Tutoring Services 0106,Tutoring,Kakamega,True,4.38,130,True
+P0107,Salon Services 0107,Salon and Beauty,Nakuru,True,4.07,128,True
+P0108,Moving Services 0108,Moving and Errands,Machakos,True,4.46,123,True
+P0109,Salon Services 0109,Salon and Beauty,Mombasa,True,4.28,358,True
+P0110,Plumbing Services 0110,Plumbing Repair,Kiambu,True,4.67,222,True
+P0111,Cooking Services 0111,Cooking,Kiambu,True,4.84,399,True
+P0112,Salon Services 0112,Salon and Beauty,Kakamega,True,4.61,195,True
+P0113,Tutoring Services 0113,Tutoring,Kisumu,True,4.0,326,True
+P0114,Security Services 0114,Security Install,Kisumu,True,3.87,289,True
+P0115,Plumbing Services 0115,Plumbing Repair,Nakuru,False,4.23,57,True
+P0116,Home Services 0116,Home Cleaning,Mombasa,True,4.29,150,True
+P0117,Laundry Services 0117,Laundry,Kiambu,True,3.48,181,True
+P0118,Cooking Services 0118,Cooking,Nakuru,True,3.34,365,True
+P0119,Gardening Services 0119,Gardening,Nakuru,True,4.41,232,True
+P0120,Home Services 0120,Home Cleaning,Nakuru,False,4.12,299,True
+P0121,Security Services 0121,Security Install,Machakos,False,3.66,164,True
+P0122,Plumbing Services 0122,Plumbing Repair,Kakamega,True,4.02,360,True
+P0123,Salon Services 0123,Salon and Beauty,Kakamega,True,4.56,344,True
+P0124,Moving Services 0124,Moving and Errands,Kisumu,False,3.65,343,True
+P0125,Plumbing Services 0125,Plumbing Repair,Kisumu,False,4.67,203,True
+P0126,Appliance Services 0126,Appliance Repair,Machakos,False,4.0,9,True
+P0127,Security Services 0127,Security Install,Machakos,True,4.32,306,True
+P0128,Tutoring Services 0128,Tutoring,Mombasa,True,3.99,318,True
+P0129,Tutoring Services 0129,Tutoring,Uasin Gishu,True,4.49,175,True
+P0130,Electrical Services 0130,Electrical Works,Mombasa,True,3.73,132,True
+P0131,Childcare Services 0131,Childcare,Kisumu,True,3.88,22,True
+P0132,Gardening Services 0132,Gardening,Kisumu,True,3.95,297,True
+P0133,Security Services 0133,Security Install,Mombasa,False,3.12,333,True
+P0134,Appliance Services 0134,Appliance Repair,Mombasa,True,3.45,392,True
+P0135,Childcare Services 0135,Childcare,Nairobi,True,4.76,25,True
+P0136,Laundry Services 0136,Laundry,Nakuru,True,3.56,194,True
+P0137,Security Services 0137,Security Install,Machakos,True,3.49,166,True
+P0138,Laundry Services 0138,Laundry,Uasin Gishu,True,3.85,256,True
+P0139,Gardening Services 0139,Gardening,Uasin Gishu,True,4.37,334,True
+P0140,Electrical Services 0140,Electrical Works,Kiambu,True,4.29,388,True
+P0141,Tutoring Services 0141,Tutoring,Kisumu,True,3.83,153,True
+P0142,Plumbing Services 0142,Plumbing Repair,Machakos,True,4.17,180,True
+P0143,Moving Services 0143,Moving and Errands,Uasin Gishu,True,4.85,243,True
+P0144,Plumbing Services 0144,Plumbing Repair,Kakamega,False,4.18,107,True
+P0145,Cooking Services 0145,Cooking,Kiambu,True,4.68,217,True
+P0146,Laundry Services 0146,Laundry,Nakuru,True,4.34,393,True
+P0147,Home Services 0147,Home Cleaning,Kiambu,True,3.97,29,True
+P0148,Plumbing Services 0148,Plumbing Repair,Kakamega,False,4.52,230,True
+P0149,Childcare Services 0149,Childcare,Kisumu,True,4.78,15,True
+P0150,Cooking Services 0150,Cooking,Kisumu,True,3.91,171,True
+P0151,Childcare Services 0151,Childcare,Kakamega,True,3.93,55,True
+P0152,Security Services 0152,Security Install,Machakos,False,4.57,131,True
+P0153,Cooking Services 0153,Cooking,Kisumu,True,5.0,250,True
+P0154,Salon Services 0154,Salon and Beauty,Kisumu,True,3.98,43,True
+P0155,Laundry Services 0155,Laundry,Kakamega,True,4.26,184,True
+P0156,Tutoring Services 0156,Tutoring,Nairobi,False,4.92,262,True
+P0157,Home Services 0157,Home Cleaning,Nairobi,False,4.31,321,True
+P0158,Cooking Services 0158,Cooking,Nakuru,True,4.49,396,True
+P0159,Salon Services 0159,Salon and Beauty,Nakuru,False,3.01,61,True
+P0160,Gardening Services 0160,Gardening,Mombasa,False,4.35,56,True
+P0161,Childcare Services 0161,Childcare,Uasin Gishu,False,5.0,350,True
+P0162,Security Services 0162,Security Install,Machakos,True,4.6,297,True
+P0163,Electrical Services 0163,Electrical Works,Machakos,True,3.35,383,True
+P0164,Security Services 0164,Security Install,Kiambu,True,4.38,242,True
+P0165,Tutoring Services 0165,Tutoring,Kisumu,True,4.76,243,True
+P0166,Cooking Services 0166,Cooking,Uasin Gishu,False,4.11,112,True
+P0167,Security Services 0167,Security Install,Mombasa,True,4.93,104,True
+P0168,Appliance Services 0168,Appliance Repair,Uasin Gishu,True,4.26,143,True
+P0169,Salon Services 0169,Salon and Beauty,Kakamega,True,4.58,73,True
+P0170,Laundry Services 0170,Laundry,Uasin Gishu,True,4.35,216,True
+P0171,Home Services 0171,Home Cleaning,Nairobi,True,4.72,162,True
+P0172,Moving Services 0172,Moving and Errands,Machakos,True,4.2,213,True
+P0173,Plumbing Services 0173,Plumbing Repair,Mombasa,True,3.56,368,True
+P0174,Laundry Services 0174,Laundry,Uasin Gishu,True,4.12,161,True
+P0175,Cooking Services 0175,Cooking,Mombasa,True,4.1,278,True
+P0176,Moving Services 0176,Moving and Errands,Mombasa,True,4.84,283,True
+P0177,Tutoring Services 0177,Tutoring,Nakuru,False,4.91,27,True
+P0178,Appliance Services 0178,Appliance Repair,Kiambu,False,4.32,212,True
+P0179,Salon Services 0179,Salon and Beauty,Machakos,False,3.59,361,True
+P0180,Salon Services 0180,Salon and Beauty,Mombasa,False,4.19,12,True
+P0181,Home Services 0181,Home Cleaning,Machakos,False,4.68,360,True
+P0182,Cooking Services 0182,Cooking,Machakos,False,4.77,238,True
+P0183,Plumbing Services 0183,Plumbing Repair,Kisumu,True,3.91,238,True
+P0184,Gardening Services 0184,Gardening,Uasin Gishu,True,4.97,80,True
+P0185,Electrical Services 0185,Electrical Works,Kakamega,True,3.63,313,True
+P0186,Salon Services 0186,Salon and Beauty,Nairobi,True,4.52,115,True
+P0187,Security Services 0187,Security Install,Nakuru,False,3.4,155,True
+P0188,Salon Services 0188,Salon and Beauty,Nakuru,True,4.8,149,True
+P0189,Gardening Services 0189,Gardening,Kisumu,True,4.36,272,True
+P0190,Plumbing Services 0190,Plumbing Repair,Kisumu,False,3.61,63,True
+P0191,Plumbing Services 0191,Plumbing Repair,Kisumu,True,4.47,327,True
+P0192,Salon Services 0192,Salon and Beauty,Kiambu,False,5.0,133,True
+P0193,Home Services 0193,Home Cleaning,Nakuru,True,4.35,59,True
+P0194,Appliance Services 0194,Appliance Repair,Machakos,True,4.58,53,True
+P0195,Salon Services 0195,Salon and Beauty,Mombasa,False,4.84,326,True
+P0196,Home Services 0196,Home Cleaning,Nakuru,True,4.16,146,True
+P0197,Gardening Services 0197,Gardening,Kisumu,True,4.52,331,True
+P0198,Home Services 0198,Home Cleaning,Kiambu,False,4.64,0,True
+P0199,Gardening Services 0199,Gardening,Nakuru,False,3.61,108,True
+P0200,Salon Services 0200,Salon and Beauty,Nakuru,True,5.0,205,True
+P0201,Gardening Services 0201,Gardening,Kakamega,True,4.47,372,True
+P0202,Childcare Services 0202,Childcare,Kiambu,True,4.8,252,True
+P0203,Plumbing Services 0203,Plumbing Repair,Machakos,True,4.81,295,True
+P0204,Childcare Services 0204,Childcare,Kiambu,True,3.39,148,True
+P0205,Salon Services 0205,Salon and Beauty,Kisumu,True,4.53,377,True
+P0206,Security Services 0206,Security Install,Kiambu,True,4.75,263,True
+P0207,Security Services 0207,Security Install,Nairobi,True,3.43,0,True
+P0208,Laundry Services 0208,Laundry,Kakamega,False,4.07,250,True
+P0209,Cooking Services 0209,Cooking,Kisumu,True,5.0,125,True
+P0210,Childcare Services 0210,Childcare,Machakos,True,5.0,124,True
+P0211,Laundry Services 0211,Laundry,Kisumu,True,4.33,101,True
+P0212,Childcare Services 0212,Childcare,Uasin Gishu,False,4.92,12,True
+P0213,Electrical Services 0213,Electrical Works,Machakos,True,4.0,314,True
+P0214,Plumbing Services 0214,Plumbing Repair,Nakuru,True,4.82,81,True
+P0215,Security Services 0215,Security Install,Nakuru,True,5.0,77,True
+P0216,Laundry Services 0216,Laundry,Kiambu,True,3.93,20,True
+P0217,Laundry Services 0217,Laundry,Kakamega,True,4.56,122,True
+P0218,Gardening Services 0218,Gardening,Mombasa,False,4.16,335,True
+P0219,Cooking Services 0219,Cooking,Nakuru,True,4.82,300,True
+P0220,Gardening Services 0220,Gardening,Nairobi,False,4.53,5,True
+P0221,Salon Services 0221,Salon and Beauty,Nairobi,True,4.91,220,True
+P0222,Appliance Services 0222,Appliance Repair,Uasin Gishu,True,4.18,388,True
+P0223,Home Services 0223,Home Cleaning,Kisumu,True,4.28,70,True
+P0224,Tutoring Services 0224,Tutoring,Mombasa,True,4.34,103,True
+P0225,Security Services 0225,Security Install,Uasin Gishu,True,3.81,40,True
+P0226,Salon Services 0226,Salon and Beauty,Uasin Gishu,True,4.03,227,True
+P0227,Moving Services 0227,Moving and Errands,Machakos,True,3.7,7,True
+P0228,Home Services 0228,Home Cleaning,Kiambu,False,3.98,92,True
+P0229,Moving Services 0229,Moving and Errands,Nakuru,True,4.21,279,True
+P0230,Gardening Services 0230,Gardening,Uasin Gishu,False,3.97,27,True
+P0231,Laundry Services 0231,Laundry,Kakamega,True,4.7,245,True
+P0232,Tutoring Services 0232,Tutoring,Nairobi,True,4.24,271,True
+P0233,Moving Services 0233,Moving and Errands,Kiambu,True,4.47,229,True
+P0234,Laundry Services 0234,Laundry,Kakamega,False,4.51,171,True
+P0235,Tutoring Services 0235,Tutoring,Nakuru,True,4.59,239,True
+P0236,Childcare Services 0236,Childcare,Uasin Gishu,True,4.06,175,True
+P0237,Salon Services 0237,Salon and Beauty,Kiambu,False,5.0,176,True
+P0238,Salon Services 0238,Salon and Beauty,Nakuru,True,4.19,65,True
+P0239,Salon Services 0239,Salon and Beauty,Kakamega,False,4.46,243,True
+P0240,Salon Services 0240,Salon and Beauty,Mombasa,True,3.95,389,True
+P0241,Childcare Services 0241,Childcare,Machakos,True,4.33,45,True
+P0242,Childcare Services 0242,Childcare,Nairobi,True,4.38,49,True
+P0243,Appliance Services 0243,Appliance Repair,Nairobi,True,4.89,150,True
+P0244,Appliance Services 0244,Appliance Repair,Nairobi,True,4.12,393,True
+P0245,Moving Services 0245,Moving and Errands,Uasin Gishu,True,4.61,236,True
+P0246,Gardening Services 0246,Gardening,Kakamega,False,4.23,313,True
+P0247,Gardening Services 0247,Gardening,Kisumu,True,4.28,6,True
+P0248,Security Services 0248,Security Install,Uasin Gishu,True,4.37,140,True
+P0249,Salon Services 0249,Salon and Beauty,Kakamega,False,4.55,246,True
+P0250,Electrical Services 0250,Electrical Works,Kisumu,False,4.57,395,True
+P0251,Tutoring Services 0251,Tutoring,Nakuru,False,4.74,148,True
+P0252,Gardening Services 0252,Gardening,Kisumu,True,4.23,303,True
+P0253,Home Services 0253,Home Cleaning,Kakamega,False,4.41,307,True
+P0254,Electrical Services 0254,Electrical Works,Kisumu,False,5.0,70,True
+P0255,Plumbing Services 0255,Plumbing Repair,Uasin Gishu,True,4.53,341,True
+P0256,Moving Services 0256,Moving and Errands,Nairobi,False,4.39,35,True
+P0257,Cooking Services 0257,Cooking,Nakuru,True,4.81,335,True
+P0258,Moving Services 0258,Moving and Errands,Kisumu,False,3.92,256,True
+P0259,Plumbing Services 0259,Plumbing Repair,Kisumu,False,3.83,330,True
