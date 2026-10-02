@@ -1,17 +1,17 @@
 """The contract, as validated types. Other teams depend on these shapes."""
-from typing import Any
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class Request(BaseModel):
     """in : { "bookingId": "..." }"""
-    # TODO — replace with the real fields
+    bookingId: str | None = None
     model_config = {"extra": "allow"}
 
 
 class Response(BaseModel):
     """out: { "probability": 0.0, "factors": [] }"""
-    # TODO — replace with the real fields
+    probability: float
+    factors: list[str] = Field(default_factory=list)
     isSynthetic: bool = True
     method: str = "baseline"
     model_config = {"extra": "allow"}
