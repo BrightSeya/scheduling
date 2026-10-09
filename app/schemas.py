@@ -4,7 +4,7 @@ from pydantic import BaseModel, Field
 
 class Request(BaseModel):
     """in : { "bookingId": "..." }"""
-    bookingId: str | None = None
+    bookingId: str
     model_config = {"extra": "allow"}
 
 

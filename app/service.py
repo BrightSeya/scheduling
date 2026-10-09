@@ -1,17 +1,27 @@
-"""
-U-CS 41 — your logic goes here.
+"""U-CS 41 no-show prediction: look up the booking, score it, explain it. Data is SYNTHETIC."""
+from functools import lru_cache
 
-STEP 1 IS THE BASELINE. The dumbest thing that works, with a number you have measured.
-Do not replace it with a model until that number exists and you know what to beat.
-"""
-from app.evaluation import baseline_probability
+from app.explain import factors
+from app.features import features_for_booking
+from app.model import TrainedModel, train
 from app.schemas import Request, Response
 
 
+@lru_cache(maxsize=1)
+def get_model() -> TrainedModel:
+    return train()
+
+
+def warm_up() -> None:
+    get_model()
+
+
 def handle(body: Request) -> Response:
-    p = baseline_probability()
+    """Raises UnknownBooking if the bookingId is not in the dataset."""
+    features = features_for_booking(body.bookingId)
+    model = get_model()
     return Response(
-        probability=p,
-        factors=[f"baseline: same probability for every booking ({p:.1%} training-set no-show rate)"],
-        method="baseline: constant training-set no-show rate",
+        probability=float(model.probability(features)[0]),
+        factors=factors(model.pipeline, features),
+        method="logistic regression, Platt-calibrated",
     )
