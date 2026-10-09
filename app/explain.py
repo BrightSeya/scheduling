@@ -53,6 +53,11 @@ def factors(pipeline: Pipeline, features: pd.DataFrame, top: int = 3) -> list[st
     contrib["category"] = (float(cat_coef[categories.index(category)] - cat_coef.mean())
                            if category in categories else 0.0)
 
+    # With no history, the history terms say nothing; "first booking" already covers it.
+    if row["is_first_booking"].iloc[0]:
+        for f in ("prior_bookings", "prior_no_shows", "prior_no_show_rate"):
+            contrib.pop(f)
+
     out = []
     for f in sorted(contrib, key=lambda k: -abs(contrib[k]))[:top]:
         text = f"{category} service" if f == "category" else _describe(f, row[f].iloc[0])

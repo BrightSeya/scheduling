@@ -65,3 +65,11 @@ def test_factors_are_readable_and_tagged(trained):
     assert len(out) == 3
     assert all(f.endswith("risk)") for f in out)
     assert any("prior no-show" in f for f in out)
+
+
+def test_first_booking_factors_do_not_cite_history(trained):
+    df = load_bookings()
+    first = df[df["is_first_booking"] == 1].iloc[0]["booking_id"]
+    out = factors(trained.pipeline, features_for_booking(first))
+    assert len(out) == 3
+    assert not any("earlier booking" in f or "prior no-show" in f for f in out)
