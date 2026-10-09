@@ -11,6 +11,8 @@ def test_health():
 
 
 def test_endpoint_responds():
-    res = client.post("/noshow/predict", json={})
+    res = client.post("/noshow/predict", json={"bookingId": "B0008746"})
     assert res.status_code == 200, res.text
-    assert "method" in res.json()
+    body = res.json()
+    assert 0.0 <= body["probability"] <= 1.0
+    assert isinstance(body["factors"], list)

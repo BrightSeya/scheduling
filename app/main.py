@@ -22,17 +22,26 @@ to build.
 
 Do not change the /noshow/predict shape without agreeing it with: U-CS 46 (ops-metrics)
 """
+from contextlib import asynccontextmanager
 from datetime import date
 
 from fastapi import FastAPI, HTTPException
 
 from app.booking import STORE, SlotBlocked, SlotNotFound, SlotTaken
 from app.conflicts import detect
+from app.features import UnknownBooking
 from app.schemas import Request, Response
-from app.service import handle
+from app.service import handle, warm_up
 from app.slots import Availability, ServiceConfig, generate_slots
 
-app = FastAPI(title="U-CS 41 — scheduling", version="0.2.0")
+
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    warm_up()
+    yield
+
+
+app = FastAPI(title="U-CS 41 — scheduling", version="0.2.0", lifespan=lifespan)
 
 
 @app.get("/health")
@@ -104,4 +113,7 @@ def conflicts_check(body: dict | None = None):
 # ── 3. the machine learning half — still yours ───────────────────────────────
 @app.post("/noshow/predict", response_model=Response)
 def endpoint(body: Request) -> Response:
-    return handle(body)
+    try:
+        return handle(body)
+    except UnknownBooking:
+        raise HTTPException(404, f"unknown bookingId: {body.bookingId}")
