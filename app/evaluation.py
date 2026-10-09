@@ -15,11 +15,13 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from sklearn.metrics import precision_score, recall_score, roc_auc_score
+from sklearn.metrics import (precision_recall_curve, precision_score,
+                             recall_score, roc_auc_score)
 
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "bookings.csv"
 LABEL = "did_not_show"
 TRAIN_FRACTION = 0.75
+VALIDATION_FRACTION = 0.15  # last slice of the training portion, for threshold and calibration
 
 # Only known after the appointment happens; using any of them as a feature is leakage.
 FORBIDDEN_FEATURES = (
@@ -48,6 +50,13 @@ def time_split(df: pd.DataFrame, train_fraction: float = TRAIN_FRACTION):
     df = df.sort_values("created_at", kind="stable").reset_index(drop=True)
     cut = int(len(df) * train_fraction)
     return df.iloc[:cut], df.iloc[cut:]
+
+
+def three_way_split(df: pd.DataFrame, validation_fraction: float = VALIDATION_FRACTION):
+    """fit / validation / test in time order; test is the same 25% as time_split."""
+    train, test = time_split(df)
+    cut = int(len(train) * (1 - validation_fraction))
+    return train.iloc[:cut], train.iloc[cut:], test
 
 
 def baseline_rate(train: pd.DataFrame) -> float:
@@ -91,6 +100,28 @@ def evaluate(y_true, prob, threshold: float = 0.5) -> dict:
         "recall": float(recall_score(y, flagged, zero_division=0)),
         "threshold": threshold,
         "calibration": calibration_table(y, p),
+    }
+
+
+def best_f1_threshold(y_true, prob) -> float:
+    precision, recall, thresholds = precision_recall_curve(y_true, prob)
+    p, r = precision[:-1], recall[:-1]
+    f1 = 2 * p * r / np.maximum(p + r, 1e-12)
+    return float(thresholds[int(np.argmax(f1))])
+
+
+def top_k_metrics(y_true, prob, fraction: float = 0.15) -> dict:
+    """Flag the highest-risk `fraction` of bookings and report precision and recall."""
+    y = np.asarray(y_true)
+    p = np.asarray(prob, dtype=float)
+    k = max(1, int(round(len(p) * fraction)))
+    top = np.argsort(-p, kind="stable")[:k]
+    hits = float(y[top].sum())
+    return {
+        "fraction": fraction,
+        "flagged": k,
+        "precision": hits / k,
+        "recall": hits / float(y.sum()) if y.sum() else 0.0,
     }
 
 
