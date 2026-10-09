@@ -68,7 +68,7 @@ def test_evaluate_reports_all_metrics():
     assert out["precision"] == 1.0 and out["recall"] == 1.0
 
 
-def test_endpoint_returns_the_baseline_probability():
+def test_endpoint_returns_a_probability_and_factors():
     res = TestClient(app).post("/noshow/predict", json={"bookingId": "B0000000"})
     body = res.json()
     assert res.status_code == 200
