@@ -15,8 +15,8 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from sklearn.metrics import (precision_recall_curve, precision_score,
-                             recall_score, roc_auc_score)
+from sklearn.metrics import (brier_score_loss, precision_recall_curve,
+                             precision_score, recall_score, roc_auc_score)
 
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "bookings.csv"
 LABEL = "did_not_show"
@@ -89,8 +89,15 @@ def calibration_table(y_true, prob, bins: int = 10) -> list[dict]:
     return rows
 
 
+def expected_calibration_error(y_true, prob, bins: int = 10) -> float:
+    """Average gap between predicted and observed rate per bin, weighted by bin size."""
+    table = calibration_table(y_true, prob, bins)
+    total = sum(r["n"] for r in table)
+    return float(sum(r["n"] / total * abs(r["predicted"] - r["observed"]) for r in table))
+
+
 def evaluate(y_true, prob, threshold: float = 0.5) -> dict:
-    """ROC-AUC, precision, recall at `threshold`, and a calibration table."""
+    """ROC-AUC, precision, recall at `threshold`, Brier, ECE and a calibration table."""
     y = np.asarray(y_true)
     p = np.asarray(prob, dtype=float)
     flagged = (p >= threshold).astype(int)
@@ -100,6 +107,8 @@ def evaluate(y_true, prob, threshold: float = 0.5) -> dict:
         "recall": float(recall_score(y, flagged, zero_division=0)),
         "threshold": threshold,
         "calibration": calibration_table(y, p),
+        "brier": float(brier_score_loss(y, p)),
+        "ece": expected_calibration_error(y, p),
     }
 
 
